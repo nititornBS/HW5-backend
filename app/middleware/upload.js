@@ -5,9 +5,9 @@ const storage = multer.diskStorage({
         cb(null, __basedir + "/assets/");
     },
     filename: (req, file, cb)=>{
-        // const extArray = file.mimetype.split("/");
-        // const extension = extArray[extArray.length-1];
-        const newFilename = "Fileupload";
+        const extArray = file.mimetype.split("/");
+        const extension = extArray[extArray.length-1];
+        const newFilename = "Fileupload-"+Date.now()+"."+extension;
         cb(null, newFilename);
     }
 });
