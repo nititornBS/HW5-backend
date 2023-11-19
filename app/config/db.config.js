@@ -1,11 +1,7 @@
 module.exports = {
-  // HOST: "localhost",
-  // USER: "root",
-  // PASSWORD: "",
-  // DB: "test",
   HOST: "sql.freedb.tech",
-  USER: "freedb_TanaT",
-  PASSWORD: "P8G%&cZucyu2km9",
-  DB: "freedb_manage_user",
+  USER: "freedb_Nititorn_HW5",
+  PASSWORD: "WWEYdZ%u6*AbPAC",
+  DB: "freedb_Nititorn_HW5",
 };
 
